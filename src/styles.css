@@ -1,0 +1,28 @@
+.background {
+    background-image: url(./assets/backgrounds/mobile/bg-image-nighttime.jpg);
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.upper-container {
+  display: flex;
+}
+
+.quotes {
+  font-size: 
+    12px;
+  color: white;
+  font-family: 'inter', sans-serif;
+}
+
+#author {
+  font-weight: bold;
+}
+
+#quote-body {
+  line-height: 2;
+}
+

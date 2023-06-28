@@ -1,10 +1,15 @@
+import './styles.css'
+import RefreshButton from '../src/components/refresh-button/refresh-button.jsx'
+import QuoteGenerator from './components/quote-generator/quote-generator'
+
 export default function App() {
   return (
     <body>
       <div className="background">
         <div className="upper-container">
-          <div className="quotes">
-            <h1>Quotes</h1>
+          < QuoteGenerator />
+          <div className="refresh">
+            < RefreshButton />
           </div>
         </div>
         <div className="lower-container">
