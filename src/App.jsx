@@ -1,6 +1,8 @@
 import './styles.css'
 import RefreshButton from '../src/components/refresh-button/refresh-button.jsx'
 import QuoteGenerator from './components/quote-generator/quote-generator'
+import Greeting from './components/greeting/greeting'
+import MoreButton from './components/more-button/more-button'
 
 export default function App() {
   return (
@@ -14,19 +16,20 @@ export default function App() {
         </div>
         <div className="lower-container">
           <div className="clock-container">
-            <h2 className="greeting">
-              Good morning, its currently
-            </h2>
-            <h1 className="clock">
-              11:30
-            </h1>
+            < Greeting />
+            <div className="clock-and-timezone">
+              <h1 className="clock">
+                11:30
+              </h1>
+              <h2 className="timezone">
+                BST
+              </h2>
+            </div>
             <h2 className="location">
-              in London, UK
+              IN LONDON, UK
             </h2>
           </div>
-          <div className="button-container">
-            <button className="button">More</button>
-          </div>
+          <MoreButton />
         </div>
       </div>
     </body>

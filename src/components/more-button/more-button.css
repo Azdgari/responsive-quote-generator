@@ -1,0 +1,25 @@
+.more-button {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 39px;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.more-icon {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.more-button-text {
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-right: 0px;
+  margin-left: 8px;
+}
