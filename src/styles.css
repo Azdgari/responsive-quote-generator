@@ -22,23 +22,6 @@ body {
   }
 }
 
-.upper-container {
-  display: flex;
-}
-
-.quotes {
-  font-size: 12px;
-  color: white;
-}
-
-#author {
-  font-weight: bold;
-}
-
-#quote-body {
-  line-height: 2;
-}
-
 .greeting {
   display: flex;
   align-items: center;
