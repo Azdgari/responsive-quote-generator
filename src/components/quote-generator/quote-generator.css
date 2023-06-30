@@ -1,0 +1,37 @@
+.upper-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quotes {
+  font-size: 12px;
+  color: white;
+}
+
+#author {
+  font-weight: bold;
+}
+
+#quote-body {
+  line-height: 2;
+}
+
+.refresh {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer; */
+}
+
+.refresh-icon:hover {
+  background-color: transparent;
+
+}
+
+.refresh .refresh-icon {
+  fill: #333;
+  /* width: 20px;
+  height: 20px;
+  margin-right: 5px; */
+}
