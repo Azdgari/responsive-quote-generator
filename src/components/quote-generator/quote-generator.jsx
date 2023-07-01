@@ -30,9 +30,11 @@ const QuoteGenerator = () => {
         <h2 id="author">{data.author}</h2>
 
       </div>
-      <button className="refresh" onClick={fetchQuote}>
-        <RefreshIcon className="refresh-icon" />
-      </button>
+      <div className="button-container">
+        <button className="refresh" onClick={fetchQuote}>
+          <RefreshIcon className="refresh-icon" />
+        </button>
+      </div>
     </div>
   )
 }

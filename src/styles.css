@@ -8,6 +8,7 @@ body {
     background-position: center; 
     background-size: cover;
     max-width: 375px;
+    height: 667px;
     display: flex;
     flex-direction: column;
     padding: 30px;
