@@ -22,10 +22,9 @@ const CurrentLocation = () => {
     fetchData();
   }, []);
 
-  return (
-    <h2 className="location">
-      In {location}
-    </h2>
+  return (<>
+    {location}
+  </>
   );
 };
 

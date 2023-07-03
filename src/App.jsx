@@ -16,7 +16,9 @@ export default function App() {
             <div className="clock-and-timezone">
               < CurrentTime />
             </div>
-            < CurrentLocation />
+            <h2 className="location">
+              In < CurrentLocation />
+            </h2>
           </div>
           <MoreButton />
         </div>

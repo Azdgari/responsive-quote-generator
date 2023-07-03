@@ -12,7 +12,7 @@ const CurrentTime = () => {
           throw new Error('Error fetching time');
         }
         const data = await response.json();
-        console.log('API response data:', data)
+        // console.log('API response data:', data)
         const dateTimeString = data.datetime;
         const extractedTime = dateTimeString.slice(11, 16);
         setTime(extractedTime);
