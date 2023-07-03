@@ -6,7 +6,7 @@
   background-color: white;
   border-radius: 50px;
   align-items: center;
-  margin-top: 50px;
+  margin: 30px 30px;
 }
 
 .more-icon {
@@ -22,4 +22,36 @@
   letter-spacing: 5px;
   margin-right: 0px;
   margin-left: 8px;
+}
+
+.more-info {
+  color: white;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  background: black;
+  width: 100%;
+  
+}
+
+.more-info.show {
+  opacity: 1;
+  max-height: 300px;
+}
+
+.more-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.more-info-item-title {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-right: 0px;
+  margin-left: 8px;
+  text-transform: uppercase;
 }

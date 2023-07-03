@@ -7,12 +7,13 @@ body {
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
-    max-width: 375px;
-    height: 667px;
+    max-width: 435px;
+    min-height: 667px;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    gap: 220px;
+    justify-content: flex-start;
+    /* padding: 30px; */
+    gap: 100px;
 }
 
 @media (min-width: 768px) {
@@ -21,6 +22,18 @@ body {
     max-width: 1440px;
     max-height: 800px;
   }
+}
+
+.upper-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  padding: 30px;
+}
+
+
+.lower-container .more-info {
+  padding: 0px;
 }
 
 .greeting {
@@ -40,6 +53,7 @@ body {
 }
 
 .clock-container {
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

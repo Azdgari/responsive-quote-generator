@@ -3,7 +3,7 @@ import './greeting.css';
 
 const Greeting = ({ time }) => {
 
-  if (!time) {
+  if (!time || typeof time !== 'string') {
     return null;
   }
 

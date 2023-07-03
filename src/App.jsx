@@ -12,7 +12,7 @@ export default function App() {
         < QuoteGenerator />
         <div className="lower-container">
           <div className="clock-container">
-            < Greeting />
+            < Greeting time={CurrentTime} />
             <div className="clock-and-timezone">
               < CurrentTime />
             </div>
