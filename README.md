@@ -29,11 +29,6 @@ Users should be able to:
 - Be shown the correct greeting and background image based on the time of day they're visiting the site
 - Generate random programming quotes by clicking the refresh icon near the quote
 
-### Screenshot
-
-[./app-screenshot-3-jul-2023.png]
-
-
 ### Links
 
 - Live Site URL: [https://azdgari.github.io/world-clock/](https://azdgari.github.io/world-clock/)
