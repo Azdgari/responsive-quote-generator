@@ -13,13 +13,18 @@ const Greeting = ({ time }) => {
   console.log('Greeting:', greeting)
   if (currentHour >= 5 && currentHour < 12) {
     greeting = 'GOOD MORNING'
+    // onBackgroundChange('./bg-image-daytime.jpg')
   }
   else if (currentHour >= 12 && currentHour < 18) {
     greeting = 'GOOD AFTERNOON'
+    // onBackgroundChange('./bg-image-nighttime.jpg')
   }
   else {
     greeting = 'GOOD EVENING'
+    // onBackgroundChange('./bg-image-nighttime.jpg')
   }
+
+
   console.log('Greeting Updated:', greeting)
 
   return (

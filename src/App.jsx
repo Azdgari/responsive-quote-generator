@@ -4,8 +4,10 @@ import Greeting from './components/greeting/greeting'
 import MoreButton from './components/more-button/more-button'
 import CurrentTime from './components/current-time/current-time'
 import CurrentLocation from './components/current-location/current-location.jsx'
+import { useState } from 'react'
 
 export default function App() {
+
   return (
     <body>
       <div className="background">
