@@ -39,9 +39,11 @@ const MoreButton = () => {
     setShowMoreInfo(!showMoreInfo);
     const background = document.querySelector('.background');
     const upperContainer = document.querySelector('.upper-container');
+    const clockContainer = document.querySelector('.clock-container');
     if (background) {
-      background.style.gap = showMoreInfo ? '' : '0';
+      background.style.gap = showMoreInfo ? '' : '30px';
       upperContainer.style.display = showMoreInfo ? '' : 'none';
+      clockContainer.style.marginBottom = showMoreInfo ? '' : '90px';
     }
   };
 

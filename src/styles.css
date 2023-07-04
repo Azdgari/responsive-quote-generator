@@ -57,7 +57,7 @@ body {
 }
 
 .clock-container {
-  padding: 30px;
+  padding: 30px ;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -44,7 +44,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 1px solid #e0e0e0;
+  margin: 4px 0px;
+  /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .more-info-item-title {
