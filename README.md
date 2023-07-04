@@ -53,5 +53,5 @@ I definitely intend to continue working on my CSS skills as I feel that having s
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@azdgari]((https://www.frontendmentor.io/profile/Azdgari)
 - Twitter - [@igadzra](https://www.twitter.com/igadzra)
