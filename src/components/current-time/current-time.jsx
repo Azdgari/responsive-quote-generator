@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Greeting from '../greeting/greeting';
+import Greeting from '../greeting/greeting.jsx';
 
 const CurrentTime = () => {
   const [time, setTime] = useState('');

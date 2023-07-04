@@ -1,8 +1,8 @@
 import './styles.css'
-import QuoteGenerator from './components/quote-generator/quote-generator'
-import Greeting from './components/greeting/greeting'
-import MoreButton from './components/more-button/more-button'
-import CurrentTime from './components/current-time/current-time'
+import QuoteGenerator from './components/quote-generator/quote-generator.jsx'
+import Greeting from './components/greeting/greeting.jsx'
+import MoreButton from './components/more-button/more-button.jsx'
+import CurrentTime from './components/current-time/current-time.jsx'
 import CurrentLocation from './components/current-location/current-location.jsx'
 
 export default function App() {
