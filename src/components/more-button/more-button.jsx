@@ -29,7 +29,7 @@ const MoreButton = () => {
 
       } catch (error) {
         console.log(error);
-        setLocationData('Error fetching location');
+        setLocationString('Error fetching location');
       }
     };
     fetchData();
