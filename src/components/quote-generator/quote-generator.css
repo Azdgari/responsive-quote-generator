@@ -20,20 +20,6 @@
   cursor: pointer;
 }
 
-/* .refresh:hovor {
-  background-color: red;
-  fill: red;
-} */
-
-.refresh-icon:hover {
-  background-color: transparent;
-  fill: red;
-}
-
 .button-container {
   width: 30px;
-}
-
-.refresh .refresh-icon {
-  fill: red;
 }

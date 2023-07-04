@@ -9,6 +9,11 @@
   margin: 30px 30px;
 }
 
+.more-button:hover {
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
 .more-icon {
   background-color: black;
   width: 30px;
